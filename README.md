@@ -25,3 +25,11 @@ jenkins@9d91f4964bea:~/secrets$ cat initialAdminPassword
 e6b1172aab7f43e1b864a8f170a9cd0f  
 
 jenkins@9d91f4964bea:~/secrets$ exit   
+
+docker exec -it jenkins-dev bash
+
+cd ~/.ssh/
+
+ ls -lrth
+ 
+  ssh-keygen -t rsa
