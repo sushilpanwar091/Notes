@@ -32,4 +32,16 @@ cd ~/.ssh/
 
  ls -lrth
  
+ 
+ 
+ docker tag kingfirstui:1.0 sushil077/kingfirstui:1.0
+ 
+ docker push sushil077/kingfirstui:1.0
+ 
+ docker container run -it -p 8087:80 --name=angular-nginx-ui kingfirstui:1.0 
+ 
+ 
+ 
+ 
+ 
   ssh-keygen -t rsa
